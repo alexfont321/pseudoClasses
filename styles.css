@@ -1,9 +1,9 @@
-li {
+/* li {
     display: inline;
 }
 li:after {
     content: ", "
-}
+} */
 
 span {
     text-align: center;
@@ -48,4 +48,25 @@ article {
     border: 2px grey dashed;
     background-color: coral;
 
+}
+
+
+/*Second Part of the Practice*/
+
+nav {
+    display: flex;
+
+}
+
+ul {
+
+}
+
+ul li:hover {
+    background-color: rgb(95, 9, 84);
+    color: olivedrab;
+}
+
+ul li:active {
+    font-size: 2em;;
 }
